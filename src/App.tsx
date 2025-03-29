@@ -2,14 +2,13 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { 
-  FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaNodeJs, FaPython, FaGitAlt, FaJira,
-  FaDatabase, FaCloud, FaSun, FaMoon, FaGithub, FaLinkedin
+  FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaNodeJs, FaPython, FaGitAlt, FaJira, FaCloud, FaSun, FaMoon, FaGithub, FaLinkedin
 } from 'react-icons/fa'
 import { 
   SiJavascript, SiRedux, SiMui, SiExpress, SiMysql, SiMongodb, 
   SiReact, SiFlutter, SiNotion
 } from 'react-icons/si'
-import { TbBrandVscode } from 'react-icons/tb'
+
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -59,6 +58,7 @@ function App() {
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode)
+    console.log(activeSection)
   }
 
   const skillsData = {
