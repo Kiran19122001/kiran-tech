@@ -6,7 +6,8 @@ import {
 } from 'react-icons/fa'
 import { 
   SiJavascript, SiRedux, SiMui, SiExpress, SiMysql, SiMongodb, 
-  SiReact, SiFlutter, SiNotion
+  SiReact, SiFlutter, SiNotion,
+  SiTypescript
 } from 'react-icons/si'
 
 
@@ -66,6 +67,7 @@ function App() {
       { name: 'HTML', icon: <FaHtml5 className="text-[#E34F26]" /> },
       { name: 'CSS', icon: <FaCss3Alt className="text-[#1572B6]" /> },
       { name: 'JavaScript', icon: <SiJavascript className="text-[#F7DF1E]" /> },
+      { name: 'TypeScript', icon: <SiTypescript className="text-[#007ACC]" /> },
       { name: 'React.js', icon: <FaReact className="text-[#61DAFB]" /> },
       { name: 'Redux', icon: <SiRedux className="text-[#764ABC]" /> },
       { name: 'Bootstrap', icon: <FaBootstrap className="text-[#7952B3]" /> },
